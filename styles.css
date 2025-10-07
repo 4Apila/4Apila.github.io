@@ -1,3 +1,5 @@
+/* ID:hen referoidaan #id, classiin referoidaan .class */
+
 p {
     color: #4A4A48;
 }
@@ -13,4 +15,9 @@ p {
     background-color: #0ab65b;
     padding: 20px 5px;
     text-align: center;
+}
+
+#message {
+    width: 400px;
+    height: 40px;
 }
