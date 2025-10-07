@@ -12,9 +12,28 @@ p {
     text-transform: uppercase;
     display: inline-block;
     box-sizing: border-box;
-    background-color: #0ab65b;
-    padding: 20px 5px;
+    background-color: #0a82b6;
+    /* padding: 20px 5px; */
     text-align: center;
+}
+
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 #message {
