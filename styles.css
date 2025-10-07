@@ -2,8 +2,15 @@ p {
     color: #4A4A48;
 }
 
+#header {
+    display: inline-block;
+}
+
 .navigation {
     text-transform: uppercase;
     display: inline-block;
-    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0ab65b;
+    padding: 20px 5px;
+    text-align: center;
 }
