@@ -2,12 +2,22 @@
 
 p {
     color: #4A4A48;
-    font-size: 1vw;
+    width: 75vmin;
     display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 #header {
     display: inline-block;
+    width: 80vw;
+}
+
+#personal {
+
 }
 
 .navigation {
@@ -15,7 +25,7 @@ p {
     display: inline-block;
     box-sizing: border-box;
     background-color: #D8DAD3;
-    /* padding: 20px 5px; */
+    padding: 20px 5px;
     text-align: center;
 }
 
@@ -41,4 +51,12 @@ p {
 #message {
     width: 400px;
     height: 40px;
+}
+
+/* HERE COMES STYLING WHEN SCREEN-SIZE IS SMALLER! */
+  @media (max-WIDTH: 800px) {
+  p {
+    font-size: 10px;
+  }
+
 }
