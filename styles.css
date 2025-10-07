@@ -2,6 +2,8 @@
 
 p {
     color: #4A4A48;
+    font-size: 1vw;
+    display: inline-block;
 }
 
 #header {
@@ -12,27 +14,27 @@ p {
     text-transform: uppercase;
     display: inline-block;
     box-sizing: border-box;
-    background-color: #0a82b6;
+    background-color: #D8DAD3;
     /* padding: 20px 5px; */
     text-align: center;
 }
 
 .navigation a {
   float: left;
-  color: #f2f2f2;
+  color: #4A4A48;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  /* font-size: 17vw; */
 }
 
 .navigation a:hover {
-  background-color: #ddd;
+  background-color: #A4C2A5;
   color: black;
 }
 
 .navigation a.active {
-  background-color: #04AA6D;
+  background-color: #566246;
   color: white;
 }
 
