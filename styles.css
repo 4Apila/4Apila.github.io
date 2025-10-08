@@ -1,5 +1,11 @@
 /* ID:hen referoidaan #id, classiin referoidaan .class */
 
+body {
+  background-color: #A4C2A5;
+  margin: 0%;
+  padding: 0%;
+}
+
 p {
     color: #4A4A48;
     width: 75vmin;
@@ -11,12 +17,10 @@ img {
   height: auto;
 }
 
+
 #header {
     display: inline-block;
-    width: 80vw;
-}
-
-#personal {
+    width: 100%;
 
 }
 
@@ -26,7 +30,9 @@ img {
     box-sizing: border-box;
     background-color: #D8DAD3;
     padding: 20px 5px;
-    text-align: center;
+    align: center;
+    width: 100%;
+    margin: auto;
 }
 
 .navigation a {
@@ -35,8 +41,23 @@ img {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin: auto;
   /* font-size: 17vw; */
 }
+
+/*
+#home {
+  width: 25%;
+}
+
+#cv {
+  width: 25%;
+}
+
+#selectedworks {
+  width: 25%;
+}
+*/
 
 .navigation a:hover {
   background-color: #A4C2A5;
@@ -49,14 +70,15 @@ img {
 }
 
 #message {
-    width: 400px;
+    width: 25%px;
     height: 40px;
 }
 
-/* HERE COMES STYLING WHEN SCREEN-SIZE IS SMALLER! */
-  @media (max-WIDTH: 800px) {
-  p {
-    font-size: 10px;
-  }
+/* HERE COMES STYLING WHEN SCREEN-SIZE IS BIGGER! */
+  @media only screen and (min-width: 1025px) {
+  body {
+  background-color: #A4C2A5;
+  margin: 5%;
+}
 
 }
