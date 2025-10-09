@@ -25,9 +25,9 @@ body {
   padding: 0%;
 }
 
-
 p {
     color: #4A4A48;
+    margin: 5px 5px 5px 5px;
 }
 
 #firstpagephoto {
@@ -98,6 +98,7 @@ p {
   padding-right: 10px;
   padding-left: 10px;
   width: 25%;
+  text-align: justify;
 }
 
 .column {
@@ -124,7 +125,6 @@ p {
 #submit {
   position: absolute;
   right: 10px;
-
 }
 
 footer {
@@ -143,6 +143,7 @@ footer p {
 }
 
 #footericons {
+  font-size: 25px;
   padding-top: 5px;
   color: #F1F2EB;
 }
@@ -182,12 +183,36 @@ footer p {
   height: auto;
 }
 
+/* STYLING FOR TABLET */
+@media only screen and (min-width: 650px) {
+  body {
+    margin: auto;
+  }
 
-/* HERE COMES STYLING WHEN SCREEN-SIZE IS BIGGER! */
-@media only screen and (min-width: 1025px) {
-    body {
-      background-color: #A4C2A5;
-      margin: 5%;
+  img {
+    display: block;
+    width: 30%;
+    height: auto;
+  }
+
+  .kuvituskuva {
+  display: block;
+  width: 50%;
+  max-height: 400px;
+  height: auto;
+}
+
+  .content {
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  .navigation {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
   }
 
   #firstpagephoto {
@@ -195,11 +220,8 @@ footer p {
     height: auto;
   }
 
-  
   .column {
-    float: left;
-    width: 45%;
-    padding: 5%;
+    text-align: center;
   }
 
   #cvphoto {
@@ -227,4 +249,125 @@ footer p {
   margin-bottom: 5px;
   }
 
+  p {
+    font-size: 18px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  #footericons {
+    font-size: 30px;
+  }
+
+  #submit {
+  position: right;
+  right: 10%;
+  }
 }
+
+
+/* STYLING FOR COMPUTER SCREEN */
+@media only screen and (min-width: 1025px) {
+  body {
+    margin: 10%;
+  }
+
+  img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: 15px;
+  }
+
+  .kuvituskuva {
+  display: block;
+  width: 50%;
+  max-height: 400px;
+  height: auto;
+}
+
+  .content {
+    width: 65%;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  .navigation {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+  }
+
+  #firstpagephoto {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .column {
+    text-align: center;
+  }
+
+  #cvphoto {
+    max-width: 100%;
+    /* float: right; */
+  }
+
+  footer {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .leftside {
+  display: inline-block;
+  width: 50%;
+  margin-right: 75%;
+  box-sizing: border-box;
+  background-color: #D8DAD3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+  .rightside {
+  display: inline-block;
+  width: auto;
+  box-sizing: border-box;
+  float: right;
+  background-color: #D8DAD3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  ul {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  .selectedheader {
+    font-size: 25px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  h5 {
+    font-size: 15px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  #footericons {
+    font-size: 30px;
+  }
+
+  #submit {
+  position: right;
+  right: 24%;
+  }
+}
+
