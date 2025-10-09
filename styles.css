@@ -175,6 +175,12 @@ footer p {
   margin-bottom: 0px;
 }
 
+/*      SELECTED WORKS PAGE      */
+.kuvituskuva {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 /* HERE COMES STYLING WHEN SCREEN-SIZE IS BIGGER! */
