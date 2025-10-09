@@ -6,6 +6,12 @@ html,body {
   font-family: "Alegreya Sans", sans-serif;
 }
 
+.tab {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 div {
   border: 1px;
   padding: 5px;
@@ -19,20 +25,12 @@ body {
   padding: 0%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  float: center;
-}
-
 
 p {
     color: #4A4A48;
 }
 
-img {
+#firstpagephoto {
   display: block;
   margin: auto;
   max-width: 50%;
@@ -149,14 +147,44 @@ footer p {
   color: #F1F2EB;
 }
 
+/*      SECOND PAGE      */
+#cvphoto {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  height: auto;
+}
+
+#dotskills {
+  width: 50%;
+}
+
+.columncv {
+  float: left;
+  width: 45%;
+  margin: auto;
+  padding-bottom: 2px;
+  padding-top: 0px;
+}
+
+.marginless p {
+  margin-top: 0px;
+}
+
+.marginless h4 {
+  margin-bottom: 0px;
+}
+
+
+
 /* HERE COMES STYLING WHEN SCREEN-SIZE IS BIGGER! */
-  @media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
     body {
       background-color: #A4C2A5;
       margin: 5%;
   }
 
-  img {
+  #firstpagephoto {
     max-width: 100%;
     height: auto;
   }
@@ -168,11 +196,29 @@ footer p {
     padding: 5%;
   }
 
-  /* Clear floats after the columns */
-  .split:after {
-    content: "";
-    display: table;
-    clear: both;
+  #cvphoto {
+    max-width: 100%;
+    /* float: right; */
+  }
+
+  .leftside {
+  display: inline-block;
+  width: 50%;
+  margin-right: 75%;
+  box-sizing: border-box;
+  background-color: #D8DAD3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+  .rightside {
+  display: inline-block;
+  width: auto;
+  box-sizing: border-box;
+  float: right;
+  background-color: #D8DAD3;
+  margin-top: 5px;
+  margin-bottom: 5px;
   }
 
 }
