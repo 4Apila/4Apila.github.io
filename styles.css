@@ -37,6 +37,10 @@ p {
     margin: 5px 5px 5px 5px;
 }
 
+.authorparagraph {
+  margin-top: 0%;
+}
+
 #firstpagephoto {
   display: block;
   margin: auto;
