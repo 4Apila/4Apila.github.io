@@ -96,7 +96,7 @@ nav a.active {
   flex-direction: row;
   justify-content: center;
   margin: auto;
-  width: 100%;
+  width: 90%;
   color: #4A4A48;
 }
 
@@ -153,7 +153,7 @@ footer a {
   color: #F1F2EB;
 }
 
-#footericons {
+.footericons {
   font-size: 25px;
   padding-top: 5px;
   color: #F1F2EB;
@@ -247,6 +247,11 @@ footer a {
     max-width: 100%;
   }
 
+  #message {
+    width: 80%;
+    height: 50px;
+}
+
   .column {
     text-align: center;
   }
@@ -280,13 +285,13 @@ footer a {
     margin: 15px 15px 15px 15px;
   }
 
-  #footericons {
+  .footericons {
     font-size: 30px;
   }
 
   #submit {
   position: right;
-  right: 10%;
+  right: 27%;
   }
 }
 
@@ -323,6 +328,6 @@ footer a {
   }
 
   #submit {
-  right: 17.5%;
+  right: 30%;
   }
 }
