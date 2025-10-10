@@ -57,9 +57,7 @@ p {
     background-color: #D8DAD3;
     padding: 20px 5px;
     width: 100%;
-    margin: auto;
-    float: center;
-  
+    margin: 0%;
 }
 
 .navigation a {
@@ -86,7 +84,6 @@ p {
   display: inline-block;
   margin: auto;
   width: 100%;
-  padding: 10px;
   color: #4A4A48;
 }
 
@@ -136,9 +133,10 @@ footer a {
   color: #F1F2EB;
 }
 
-footer p {
+.authorparagraph{
   padding-bottom: 0%;
   margin-bottom: 0%;
+  margin-right: 0%;
   color: #F1F2EB;
 }
 
@@ -189,6 +187,7 @@ footer p {
     margin: auto;
   }
 
+
   img {
     display: block;
     width: 30%;
@@ -209,10 +208,9 @@ footer p {
   }
 
   .navigation {
-    padding: 20px;
-    width: 80%;
-    margin: auto;
-    margin-left: 10%;
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 10%;
   }
 
   #firstpagephoto {
@@ -268,7 +266,7 @@ footer p {
 /* STYLING FOR COMPUTER SCREEN */
 @media only screen and (min-width: 1025px) {
   body {
-    margin: 10%;
+    margin: 0%;
   }
 
   img {
@@ -292,10 +290,9 @@ footer p {
   }
 
   .navigation {
-    padding: 20px;
-    width: 80%;
-    margin: auto;
-    margin-left: 10%;
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 17.5%;
   }
 
   #firstpagephoto {
