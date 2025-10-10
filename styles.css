@@ -19,6 +19,13 @@ div {
   background-color: #F1F2EB;
 }
 
+section {
+  border: 1px;
+  padding: 5px;
+  margin: 0px 7px 0px 7px;
+  background-color: #F1F2EB;
+}
+
 body {
   background-color: #A4C2A5;
   margin: 0%;
@@ -50,7 +57,7 @@ p {
     margin: 0px;
 }
 
-.navigation {
+nav {
     text-transform: uppercase;
     display: inline-block;
     box-sizing: border-box;
@@ -60,7 +67,7 @@ p {
     margin: 0%;
 }
 
-.navigation a {
+nav a {
   float: left;
   color: #4A4A48;
   text-align: center;
@@ -70,12 +77,12 @@ p {
   /* font-size: 17vw; */
 }
 
-.navigation a:hover {
+nav a:hover {
   background-color: #A4C2A5;
   color: black;
 }
 
-.navigation a.active {
+nav a.active {
   background-color: #566246;
   color: white;
 }
@@ -189,7 +196,6 @@ footer a {
     margin: auto;
   }
 
-
   img {
     display: block;
     width: 30%;
@@ -197,27 +203,44 @@ footer a {
   }
 
   .kuvituskuva {
-  display: block;
   width: 50%;
   max-height: 400px;
+  margin-left: 10px;
   height: auto;
 }
 
-  .content {
+  section {
     width: 80%;
     margin: auto;
     font-size: 18px;
   }
 
-  .navigation {
-    width: 100%;
+  nav {
     margin-left: 0%;
     padding-left: 10%;
   }
 
+  h1 {
+    margin: 15px 15px 15px 15px;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  .selectedheader {
+    font-size: 25px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  h5 {
+    font-size: 15px;
+    margin: 15px 15px 15px 15px;
+  }
+
   #firstpagephoto {
     max-width: 100%;
-    height: auto;
   }
 
   .column {
@@ -226,7 +249,6 @@ footer a {
 
   #cvphoto {
     max-width: 100%;
-    /* float: right; */
   }
 
   .leftside {
@@ -251,7 +273,7 @@ footer a {
 
   p {
     font-size: 18px;
-    margin: 10px 10px 10px 10px;
+    margin: 15px 15px 15px 15px;
   }
 
   #footericons {
@@ -272,43 +294,15 @@ footer a {
   }
 
   img {
-    display: block;
-    width: 30%;
-    height: auto;
     margin-left: 15px;
   }
 
-  .kuvituskuva {
-  display: block;
-  width: 50%;
-  max-height: 400px;
-  height: auto;
-}
-
-  .content {
+  section {
     width: 65%;
-    margin: auto;
-    font-size: 18px;
   }
 
-  .navigation {
-    width: 100%;
-    margin-left: 0%;
+  nav {
     padding-left: 17.5%;
-  }
-
-  #firstpagephoto {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .column {
-    text-align: center;
-  }
-
-  #cvphoto {
-    max-width: 100%;
-    /* float: right; */
   }
 
   .icon {
@@ -320,57 +314,11 @@ footer a {
     height: auto;
   }
 
-  .leftside {
-  display: inline-block;
-  width: 50%;
-  margin-right: 75%;
-  box-sizing: border-box;
-  background-color: #D8DAD3;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  }
-
-  .rightside {
-  display: inline-block;
-  width: auto;
-  box-sizing: border-box;
-  float: right;
-  background-color: #D8DAD3;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  }
-
-  p {
-    font-size: 18px;
-    margin: 15px 15px 15px 15px;
-  }
-
   ul {
     font-size: 18px;
   }
 
-  h4 {
-    font-size: 18px;
-    margin: 15px 15px 15px 15px;
-  }
-
-  .selectedheader {
-    font-size: 25px;
-    margin: 15px 15px 15px 15px;
-  }
-
-  h5 {
-    font-size: 15px;
-    margin: 15px 15px 15px 15px;
-  }
-
-  #footericons {
-    font-size: 30px;
-  }
-
   #submit {
-  position: right;
-  right: 18%;
+  right: 17.5%;
   }
 }
-
